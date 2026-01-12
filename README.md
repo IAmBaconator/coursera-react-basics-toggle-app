@@ -11,3 +11,9 @@ Command to create a _(this)_ React app, `npx create-react-app toggle_app` and st
 3. **Dynamic Heading:** Inside the `<h1>` tag, it dynamically displays the num value passed through props.
 4. **Conditional Rendering:** The `<p>` tag uses a conditional expression to display "High" if props.num is greater than 50, or "Low" otherwise.
 5. **Exporting Component:** The Card component is exported as the default export, allowing it to be imported and used in other parts of the application.
+## App Component Explanation
+1. **Import Statements:** The code imports the App.css file for styling and the Card component from a separate module for reuse.
+2. **Random Number Generator:** A function randNum is defined to generate a random number between 1 and 100, which will be passed as a prop to the Card components.
+3. **App Component:** The App function defines a React functional component that serves as the main structure of the application.
+4. **JSX Structure:** Inside the App component, a div contains an h1 heading and three Card components, each receiving a unique random number via the num prop.
+5. **Export:** The App component is exported as the default export, making it accessible for use in other parts of the application.
